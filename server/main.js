@@ -30,17 +30,17 @@ app.get('/stream', (req, res) => {
 
 app.post('/add', (req, res) => {
   Factory.add();
-  res.send(200);
+  res.sendStatus(200);
 });
 
 app.put('/update', (req, res) => {
   Factory.update();
-  res.send(200);
+  res.sendStatus(200);
 });
 
 app.delete('/delete', (req, res) => {
   Factory.delete();
-  res.send(200);
+  res.sendStatus(200);
 });
 
 app.listen(80, () => {
