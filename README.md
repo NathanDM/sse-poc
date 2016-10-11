@@ -16,7 +16,7 @@ Simple SSE server.
 npm install
 ```
 
-### Launch the App with Watcher (js, css, html, electron)
+### Launch the App with Watcher (js, scss)
 
 ```sh
 npm run watchify
