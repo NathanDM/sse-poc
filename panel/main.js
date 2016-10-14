@@ -11,7 +11,7 @@ function createWindow() {
   mainWindow = new BrowserWindow({
     x: 0,
     y: 0,
-    frame: true,
+    frame: false,
     width: notifWidth,
     height: notifHeight,
     hasShadow: false,
